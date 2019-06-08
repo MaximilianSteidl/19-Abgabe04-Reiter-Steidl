@@ -42,17 +42,6 @@ public class StringQueueTest {
     }
 
     /**
-     * Testing if the method returns false, if there are more elements than the maxSize
-     */
-    @Test
-    public void testOfferOverflow() {
-        testQueue.offer("good");
-        testQueue.offer("goood");
-        testQueue.offer("gooood");
-        Assert.assertFalse(testQueue.offer("Overflow"));
-    }
-
-    /**
      * Testing if the maxSize works
      */
     @Test
@@ -64,6 +53,27 @@ public class StringQueueTest {
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertFalse(testQueue.offer("test"));
+    }
+    
+    /**
+     * Testing if the method returns false, if there are more elements than the maxSize
+     */
+    @Test
+    public void testOfferOverflow() {
+        testQueue.offer("good");
+        testQueue.offer("goood");
+        testQueue.offer("gooood");
+        Assert.assertFalse(testQueue.offer("Overflow"));
+    }
+
+    /**
+     * Testing if peek could be null in an empty queue
+     */
+    @Test
+    public void testPeekUnderflow() {
+     
+    Assert.assertNull(testQueue.peek());
+
     }
 
     /**
@@ -78,15 +88,7 @@ public class StringQueueTest {
         Assert.assertEquals(testQueue.peek(), testQueue.peek(), "right");
     }
 
-    /**
-     * Testing if peek could be null in an empty queue
-     */
-    @Test
-    public void testPeekUnderflow() {
-     
-    Assert.assertNull(testQueue.peek());
-
-    }
+    
 
     /**
      * Testinf if the element that got called 2 times will have euqual return values
@@ -97,13 +99,7 @@ public class StringQueueTest {
         Assert.assertEquals(testQueue.element(), testQueue.element());
     }
 
-    /**
-     * Testing to get an element from an empty queue by element method
-     */
-    @Test (expected = NoSuchElementException.class)
-    public void testElementUnderflow() {
-        testQueue.element();
-    }
+  
 
     /**
      * Testing to get an element from an empty queue by poll method
@@ -113,6 +109,15 @@ public class StringQueueTest {
         Assert.assertNull(testQueue.poll());
     }
 
+    /**
+     * Testing to get an element from an empty queue by element method
+     */
+    @Test (expected = NoSuchElementException.class)
+    public void testElementUnderflow() {
+        testQueue.element();
+    }
+    
+    
     /**
      * Testing to get an element from an empty queue by remove method
      * @throws NoSuchElementException if there's no element in the queue
