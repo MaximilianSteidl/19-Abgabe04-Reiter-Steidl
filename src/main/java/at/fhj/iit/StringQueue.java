@@ -4,18 +4,32 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// there's some Bugs included, try to debug the code and fix the Bugs
-// there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
+/** 
+ * The queue is implemented as an array list with a defined maximum size.
+ * The methods allow to add and remove elements from the queue (with or without deletion)
+ * remove() and element() methods throw exceptions if the queue is empty. Some other methods return null in that case.
+ */
 
 public class StringQueue implements Queue {
 	
 	private List<String> elements = new ArrayList<String>();
 	private int maxSize = 5;
 
+	
+	/**
+	 * The constructor of the String queue
+	 * @param maxSize = the maximum number of elements
+	 */
+	
 	public StringQueue(int maxSize){
 		maxSize = maxSize;
 	}
+	
+	/**
+	 * The method adds the element obj to the String queue
+	 * @param obj = obj added to the String queue
+	 * @return true = if addition is successful --> true, if not --> false
+	 */
 	
 	@Override
 	public boolean offer(String obj) {
@@ -27,6 +41,11 @@ public class StringQueue implements Queue {
 		return true;
 	}
 
+	/**
+	 * Returns the element that is going to delete
+	 * @return element or null if it doesn't exist
+	 */
+	
 	@Override
 	public String poll() {
 		String element = peek();
@@ -38,6 +57,11 @@ public class StringQueue implements Queue {
 		return element;
 	}
 
+	/**
+	 * Returns the element that is going to delete with NoSuchElementException --> if empty it throws the Exception
+	 * @return element
+	 */
+	
 	@Override
 	public String remove() {
 		String element = poll();		
@@ -46,6 +70,11 @@ public class StringQueue implements Queue {
 		
 		return element;
 	}
+	
+	/**
+	 * Returns the element 
+	 * @return elements or null
+	 */
 
 	@Override
 	public String peek() {
@@ -57,6 +86,11 @@ public class StringQueue implements Queue {
 		
 		return element;
 	}
+	
+	/**
+	 * Returns element with NoSuchElementException --> if queue is empty it throws Exception
+	 * @return element
+	 */
 
 	@Override
 	public String element() {
