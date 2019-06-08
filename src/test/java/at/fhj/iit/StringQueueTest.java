@@ -5,15 +5,14 @@ import org.junit.*;
 import java.util.NoSuchElementException;
 
 /**
- * Test of String queue
- * Methods and variables are tested via JUnit tests.
+ * Testing the String queue with JUnit tests
  */
 
 public class StringQueueTest {
     private StringQueue testQueue;
 
     /**
-     * Builds a String queue with three elements
+     * Setups a queue with 3 elements
      */
     @Before
     public void setup()
@@ -22,7 +21,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Check if queue works according to FIFO principle
+     * Check if the queue works
      */
     @Test
     public void testStoreOrder() {
@@ -33,7 +32,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Tests if it is possible to add the maximum of elements and true returned.
+     * Testing if it is possible to add 3 elements and get true returned
      */
     @Test
     public void testOfferReturnValues() {
@@ -43,7 +42,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Tests whether false ist returned when offering more elements than allowed by maxSize
+     * Testing if the method returns false, if there are more elements than the maxSize
      */
     @Test
     public void testOfferOverflow() {
@@ -54,7 +53,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Test whether setting queue size works
+     * Testing if the maxSize works
      */
     @Test
     public void testMaxSizeSetting() {
@@ -68,7 +67,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Tests if two elements that are peeked after each other are the same
+     * Testing if 2 elements that are peeked are the same
      */
     @Test
     public void doublePeek() {
@@ -80,7 +79,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Tests if peek on empty queue gets null as result
+     * Testing if peek could be null in an empty queue
      */
     @Test
     public void testPeekUnderflow() {
@@ -90,7 +89,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Add an element to queue, call element() 2x and check if both return values are equal
+     * Testinf if the element that got called 2 times will have euqual return values
      */
     @Test
     public void testDoubleElement() {
@@ -99,7 +98,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Try to retrieve an element from empty queue using element method
+     * Testing to get an element from an empty queue by element method
      */
     @Test (expected = NoSuchElementException.class)
     public void testElementUnderflow() {
@@ -107,7 +106,7 @@ public class StringQueueTest {
     }
 
     /**
-     * Try to retrieve an element from empty queue using poll method
+     * Testing to get an element from an empty queue by poll method
      */
     @Test
     public void testPollUnderflow() {
@@ -115,8 +114,8 @@ public class StringQueueTest {
     }
 
     /**
-     * Try to retrieve an element from empty queue using remove method
-     * @throws NoSuchElementException When trying to remove element from empty queue
+     * Testing to get an element from an empty queue by remove method
+     * @throws NoSuchElementException if there's no element in the queue
      */
     @Test (expected = NoSuchElementException.class)
     public void testRemoveUnderflow() throws NoSuchElementException {
