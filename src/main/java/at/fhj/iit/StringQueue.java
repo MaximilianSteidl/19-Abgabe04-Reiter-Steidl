@@ -32,7 +32,7 @@ public class StringQueue implements Queue {
 	/**
 	 * The method adds the element obj to the String queue
 	 * @param obj = obj added to the String queue
-	 * @return true = if addition is successful --> true, if not --> false
+	 * @return true = if addition is successful then true, if not then false
 	 */
 	
 	@Override
@@ -66,7 +66,7 @@ public class StringQueue implements Queue {
 	}
 
 	/**
-	 * Returns the element that is going to delete with NoSuchElementException --> if empty it throws the Exception
+	 * Returns the element that is going to delete with NoSuchElementException and if empty it throws the Exception
 	 * @return element
 	 */
 	
@@ -100,7 +100,7 @@ public class StringQueue implements Queue {
 	}
 	
 	/**
-	 * Returns element with NoSuchElementException --> if queue is empty it throws Exception
+	 * Returns element with NoSuchElementException and if queue is empty it throws Exception
 	 * @return element
 	 */
 
