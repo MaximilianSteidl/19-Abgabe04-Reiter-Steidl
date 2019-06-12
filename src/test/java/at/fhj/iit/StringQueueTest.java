@@ -52,7 +52,7 @@ public class StringQueueTest {
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertTrue(testQueue.offer("test"));
-        Assert.assertTrue(testQueue.offer("test"));
+        
         
         Assert.assertFalse(testQueue.offer("test"));
     }
