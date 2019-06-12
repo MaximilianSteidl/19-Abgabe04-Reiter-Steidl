@@ -1,5 +1,7 @@
 package at.fhj.iit;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -11,6 +13,7 @@ import java.util.NoSuchElementException;
  */
 
 public class StringQueue implements Queue {
+	private static final Logger logger = LogManager.getLogger(StringQueue.class);
 	
 	private List<String> elements = new ArrayList<String>();
 	private int maxSize = 5;
@@ -22,7 +25,8 @@ public class StringQueue implements Queue {
 	 */
 	
 	public StringQueue(int maxSize){
-		maxSize = maxSize;
+		logger.info("Calling StringQueue constructor");
+		this.maxSize = maxSize;
 	}
 	
 	/**
@@ -33,6 +37,8 @@ public class StringQueue implements Queue {
 	
 	@Override
 	public boolean offer(String obj) {
+		logger.info("Calling method 'offer'.");
+		
 		if(elements.size()!= maxSize)
 			elements.add(obj);
 		else
@@ -48,6 +54,8 @@ public class StringQueue implements Queue {
 	
 	@Override
 	public String poll() {
+		logger.info("Calling method 'poll'.");
+		
 		String element = peek();
 		
 		if(elements.size() != 0){
@@ -64,6 +72,8 @@ public class StringQueue implements Queue {
 	
 	@Override
 	public String remove() {
+		logger.info("Calling method 'remove'.");
+		
 		String element = poll();		
 		if(element == null)
 			throw new NoSuchElementException("there's no element any more");
@@ -78,6 +88,8 @@ public class StringQueue implements Queue {
 
 	@Override
 	public String peek() {
+		logger.info("Calling method 'peek'.");
+		
 		String element;
 		if(elements.size() > 0)
 			element = elements.get(0);
@@ -94,10 +106,13 @@ public class StringQueue implements Queue {
 
 	@Override
 	public String element() {
-		String element = peek();
-		if(element == null)
-			throw new NoSuchElementException("there's no element any more");
+		logger.info("Calling method 'element'.");
 		
+		String element = peek();
+		if(element == null) {
+			logger.error("...throwing NoSuchElementException");
+			throw new NoSuchElementException("there's no element any more");
+		}
 		return element;
 	}
 
