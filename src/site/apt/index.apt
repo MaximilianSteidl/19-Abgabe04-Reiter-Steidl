@@ -1,0 +1,22 @@
+            ------
+            Queues
+            ------
+            Maximilian Steidl & Thomas Reiter
+            ------
+            2019-06-12
+            ------
+
+Methods
+
+    A peek method is used, returning the value of the front element without dequeuing it. 
+	A poll method is used, that returns the value of the first element and deletes it.
+    The element method is similar to peek method but it throws an exception if the queue is empty.
+	The remove method is similar to poll method but it throws an exception if the queue is empty.
+    The offer method is used to add an element to the queue, if it returns true the element was added successfully and if it returns false the max size is reached.
+
+Further Course
+
+    We used ten JUnit tests to make sure that our program works fine.
+	Then we have written some JavaDoc-Comments to the methods to describe what thy do.
+	After that we implemented the log4j in the pom.xml dependencies to use it in our program.
+	Also implemented manually the maven site plugin in the pom.xml.
