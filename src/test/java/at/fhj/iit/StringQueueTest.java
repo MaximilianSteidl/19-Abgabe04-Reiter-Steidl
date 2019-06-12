@@ -52,6 +52,8 @@ public class StringQueueTest {
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertTrue(testQueue.offer("test"));
         Assert.assertTrue(testQueue.offer("test"));
+        Assert.assertTrue(testQueue.offer("test"));
+        
         Assert.assertFalse(testQueue.offer("test"));
     }
     
@@ -63,6 +65,9 @@ public class StringQueueTest {
         testQueue.offer("good");
         testQueue.offer("goood");
         testQueue.offer("gooood");
+        testQueue.offer("goooooooooood");
+        testQueue.offer("goooooooooooooooooooooooooooooooooooooood");
+        
         Assert.assertFalse(testQueue.offer("Overflow"));
     }
 
@@ -91,7 +96,7 @@ public class StringQueueTest {
     
 
     /**
-     * Testinf if the element that got called 2 times will have euqual return values
+     * Testing if the element that got called 2 times will have equal return values
      */
     @Test
     public void testDoubleElement() {
