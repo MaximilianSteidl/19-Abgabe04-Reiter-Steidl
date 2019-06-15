@@ -85,5 +85,6 @@ Viele Versuche und viele Probleme. Nach mehreren Versuchen endlich funktioniert.
 ### Lab Report
 Thomas Erstellt den Lab Report und vollendet die ReadMe Datei.
 Lab report einfach da er gleich wie readme ist.
+Alle Commits im Überblick: (Stand 14.06.2019)
 
 ![commitlogSS](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/commitlogSS.JPG)
