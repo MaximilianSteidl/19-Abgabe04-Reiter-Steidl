@@ -52,7 +52,7 @@ Max schreibt JavaDoc Kommentare zu den Tests und überarbeitet TestQueue um Fehl
 ### JavaDoc
 Thomas Erstellt über Eclipse alle Java Doc Files von der StringQueue und den Tests.
 
-![StringQueue1](Media/class_StringQueue_SS1.jpg)
+![StringQueue1](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS1.JPG)
 ![class_StringQueue_SS2](Media/class_StringQueue_SS2.jpg)
 ![class_StringQueue_SS3](Media/class_StringQueue_SS3.jpg)
 ![class_StringQueue_SS4](Media/class_StringQueue_SS4.jpg)
