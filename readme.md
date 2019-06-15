@@ -52,20 +52,20 @@ Max schreibt JavaDoc Kommentare zu den Tests und überarbeitet TestQueue um Fehl
 ### JavaDoc
 Thomas Erstellt über Eclipse alle Java Doc Files von der StringQueue und den Tests.
 
-![StringQueue1](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS1.JPG)
-![class_StringQueue_SS2](Media/class_StringQueue_SS2.jpg)
-![class_StringQueue_SS3](Media/class_StringQueue_SS3.jpg)
-![class_StringQueue_SS4](Media/class_StringQueue_SS4.jpg)
-![class_StringQueue_SS5](Media/class_StringQueue_SS5.jpg)
-![class_StringQueue_SS6](Media/class_StringQueue_SS6.jpg)
+![class_StringQueue_SS1](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS1.JPG)
+![class_StringQueue_SS2](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS2.jpg)
+![class_StringQueue_SS3](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS3.jpg)
+![class_StringQueue_SS4](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS4.jpg)
+![class_StringQueue_SS5](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS5.jpg)
+![class_StringQueue_SS6](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_StringQueue_SS6.jpg)
 
-![class_test_SS1](Media/class_test_SS1.jpg)
-![class_test_SS2](Media/class_test_SS2.jpg)
-![class_test_SS3](Media/class_test_SS3.jpg)
-![class_test_SS4](Media/class_test_SS4.jpg)
-![class_test_SS5](Media/class_test_SS5.jpg)
-![class_test_SS6](Media/class_test_SS6.jpg)
-![class_test_SS7](Media/class_test_SS7.jpg)
+![class_test_SS1](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS1.jpg)
+![class_test_SS2](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS2.jpg)
+![class_test_SS3](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS3.jpg)
+![class_test_SS4](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS4.jpg)
+![class_test_SS5](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS5.jpg)
+![class_test_SS6](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS6.jpg)
+![class_test_SS7](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/class_test_SS7.jpg)
 
 ### pom.xml
 Max passt xml datein an und commited alle Änderungen
