@@ -41,24 +41,6 @@ Thomas commited Änderungen
 
 Max erstellt alle JavaDoc kommentare zu den Methoden
 
-![class_StringQueue_SS1](media/class_StringQueue_SS1)
-![class_StringQueue_SS2](media/class_StringQueue_SS2)
-![class_StringQueue_SS3](media/class_StringQueue_SS3)
-![class_StringQueue_SS4](media/class_StringQueue_SS4)
-![class_StringQueue_SS5](media/class_StringQueue_SS5)
-![class_StringQueue_SS6](media/class_StringQueue_SS6)
-
-![class_test_SS1](media/class_test_SS1)
-![class_test_SS2](media/class_test_SS2)
-![class_test_SS3](media/class_test_SS3)
-![class_test_SS4](media/class_test_SS4)
-![class_test_SS5](media/class_test_SS5)
-![class_test_SS6](media/class_test_SS6)
-![class_test_SS7](media/class_test_SS7)
-
-
-
-
 ### JUnit Tests
 Thomas macht mit Absprache mit Max die notwendigen Tests zu jeder Methode.
 Frage welche Tests werden Benötigt? 
@@ -69,7 +51,21 @@ Max schreibt JavaDoc Kommentare zu den Tests und überarbeitet TestQueue um Fehl
 
 ### JavaDoc
 Thomas Erstellt über Eclipse alle Java Doc Files von der StringQueue und den Tests.
-stabil
+
+![class_StringQueue_SS1](Media/class_StringQueue_SS1)
+![class_StringQueue_SS2](Media/class_StringQueue_SS2)
+![class_StringQueue_SS3](Media/class_StringQueue_SS3)
+![class_StringQueue_SS4](Media/class_StringQueue_SS4)
+![class_StringQueue_SS5](Media/class_StringQueue_SS5)
+![class_StringQueue_SS6](Media/class_StringQueue_SS6)
+
+![class_test_SS1](Media/class_test_SS1)
+![class_test_SS2](Media/class_test_SS2)
+![class_test_SS3](Media/class_test_SS3)
+![class_test_SS4](Media/class_test_SS4)
+![class_test_SS5](Media/class_test_SS5)
+![class_test_SS6](Media/class_test_SS6)
+![class_test_SS7](Media/class_test_SS7)
 
 ### pom.xml
 Max passt xml datein an und commited alle Änderungen
