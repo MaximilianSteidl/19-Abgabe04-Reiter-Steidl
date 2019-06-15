@@ -24,6 +24,7 @@ public class StringQueue implements Queue {
 	 * @param maxSize = the maximum number of elements
 	 */
 	
+	
 	public StringQueue(int maxSize){
 		logger.info("Calling StringQueue constructor");
 		this.maxSize = maxSize;

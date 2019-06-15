@@ -74,6 +74,7 @@ Max passt xml datein an und commited alle Änderungen
 ### log4j
 thomas überarbeitet stringqueue und pom.xml, fügt ressource + properties hinzu (Stack Beispiel als Vorlage)
 Logger erstellt und getestet.
+![logger_ss](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/logger_ss.JPG)
 
 ### Maven Site Dokumentation
 max überarbeitet noch einmal testqueue, ändert die javadoc comments in stringqueue und änderte die pom.xml für maven site.
