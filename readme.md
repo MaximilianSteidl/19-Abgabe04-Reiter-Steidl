@@ -48,6 +48,7 @@ Frage welche Tests werden Benötigt?
 Fehler erkannt: Queue beginnt bei wert 0 und nicht bei 1
 commit
 Max schreibt JavaDoc Kommentare zu den Tests und überarbeitet TestQueue um Fehler zu beheben.
+![screenshot_testing](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/screenshot_testing.JPG)
 
 ### JavaDoc
 Thomas Erstellt über Eclipse alle Java Doc Files von der StringQueue und den Tests.
@@ -70,40 +71,19 @@ Thomas Erstellt über Eclipse alle Java Doc Files von der StringQueue und den Te
 ### pom.xml
 Max passt xml datein an und commited alle Änderungen
 
-
-![Testung](media/Testung.jpg)
-
-
 ### log4j
-Pascal hat die zwei Dependencies in der pom.xml ergänzt, die für Log4j nötig sind. Außerdem haben wir das properties-File vom Stack-Beispiel übernommen. Zusätzlich: Importieren der nötigen Klassen und Erstellen eines Loggers. In jeder Methode wurde eine Info geloggt, dass die jeweilige Methode aufgerufen wird und vor jeder Exception wurde ein Error geloggt. So sieht das Ergebnis aus:
-
-![log4j](media/log.jpg)
+thomas überarbeitet stringqueue und pom.xml, fügt ressource + properties hinzu (Stack Beispiel als Vorlage)
+Logger erstellt und getestet.
 
 ### Maven Site Dokumentation
-Nach anfänglichen kleinen Schwierigkeiten, weil unter build im pom.xml das Maven Site Plugin gefehlt hat und der entsprechenden Ergänzung haben wir mvn site laufen lassen und eine erste Dokumentation erhalten. Um einen Menüpunkt zu ergänzen, haben wir die Inhalte im Ordner src/site/apt als index.apt ergänzt. Bevor mvn site erneut aufgerufen wird und der Link entsteht räumen wir mit mvn clean sicherheitshalber auf.
+max überarbeitet noch einmal testqueue, ändert die javadoc comments in stringqueue und änderte die pom.xml für maven site.
+max vollendete die maven site implementation in der pom.xml datei und erstellte eine maven site.
+Viele Versuche und viele Probleme. Nach mehreren Versuchen endlich funktioniert. 
 
-Hier das Ergebnis:
-
-![MavenSite](media/maven.jpg)
+![maven_Site_SS](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/maven_Site_SS.JPG)
 
 ### Lab Report
-Die Verfassung des Lap Reports ist OHNE Markdown Editor passiert. Deshalb kam es zu Beginn zu nötigen Richtigstellungen der Formatierungsbefehle. Für die Zukunft wäre ein entsprechender Editor, in dem die Formatierungsbefehle direkt ausgeführt werden, zu empfehlen.
+Thomas Erstellt den Lab Report und vollendet die ReadMe Datei.
+Lab report einfach da er gleich wie readme ist.
 
-Um auch noch ein wenig Python in Markdown einzubinden:
-
-```
-print("Goodbye, World!")
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-```
-
-Die Commits dieser Übung im Überblick:
-
-![Commit Messages](media/commits1.jpg)
-
------
-
-## Links / Literatur
-Unterlagen aus den Vorlesungen und vorangegangenen Übungen. Weiterführende Links der Aufgabenstellung und MVN-Repository: [https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.11.2](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.11.2)
+![commitlogSS](https://github.com/MaximilianSteidl/19-Abgabe04-Reiter-Steidl/blob/master/Media/commitlogSS.JPG)
